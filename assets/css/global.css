@@ -1,26 +1,30 @@
 * {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f6f8fc;
+  background-color: #dc0a2d;
+}
+
+header {
+  height: 4rem;
 }
 
 .content {
-    height: 100vh;
-    width: 100vw;
-    padding: 1rem;
-    background-color: #fefefe;
-    border-radius: 2rem;
+  height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  background-color: #d2cac6;
+  border-radius: 2rem;
 }
 
 @media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 0 auto;
-    }
+  .content {
+    max-width: 992px;
+    height: auto;
+    margin: 0 auto;
+  }
 }
